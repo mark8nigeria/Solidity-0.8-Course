@@ -1,0 +1,73 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "NFT",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "NftAdd",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "NftDel",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"NftCounter.sol": "NFTCounter"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"NftCounter.sol": {
+			"keccak256": "0x2bf5963238f3a13f5b0dd47caeeca375dd70c2564d3d2be94de664f5951d818b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2830443c72dce7292520d6a8afd8e79991e598ced1d1f8ee2f2e8bb6771d23a4",
+				"dweb:/ipfs/QmTS5iE6ihVsxqT6a4HoJ7oAUrXqHRXo1h4jyha5Z9Wnnt"
+			]
+		}
+	},
+	"version": 1
+}
